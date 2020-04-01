@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "stdlib.h": "c",
+        "variant": "c",
+        "*.idl": "c",
+        "channel_provider.h": "c",
+        "array": "c",
+        "vector": "c",
+        "xstring": "c",
+        "bitset": "c",
+        "set": "c",
+        "audio_element.h": "c",
+        "internet_radio.h": "c"
+    }
+}

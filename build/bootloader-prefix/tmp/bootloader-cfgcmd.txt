@@ -1,0 +1,1 @@
+cmd='D:/ESP-IDF-331/.espressif/tools/cmake/3.13.4/bin/cmake.exe;-DSDKCONFIG=C:/ESP/A3_IMC_Ind/sdkconfig;-DIDF_PATH=C:/ESP/esp-adf/esp-idf;-DSECURE_BOOT_SIGNING_KEY=C:/ESP/A3_IMC_Ind;-DEXTRA_COMPONENT_DIRS=C:/ESP/esp-adf/esp-idf/components/bootloader;-GNinja;<SOURCE_DIR><SOURCE_SUBDIR>'

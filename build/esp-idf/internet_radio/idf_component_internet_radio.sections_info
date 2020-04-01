@@ -1,0 +1,80 @@
+In archive C:/ESP/A3_IMC_Ind/build/esp-idf/internet_radio/libinternet_radio.a:
+
+internet_radio.c.obj:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal._http_stream_event_handle 00000008  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.init_internet_radio 00000024  00000000  00000000  0000003c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.get_current_channel_name 00000004  00000000  00000000  00000060  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.start_channel_url 000001d0  00000000  00000000  00000064  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.internet_radio_task 00000008  00000000  00000000  00000234  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.reset_channel_url 00000034  00000000  00000000  0000023c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.exec_channel 00000010  00000000  00000000  00000270  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.switch_radio_next 00000018  00000000  00000000  00000280  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.switch_radio_previous 00000018  00000000  00000000  00000298  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .text         00000000  00000000  00000000  000002b0  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 10 .data         00000000  00000000  00000000  000002b0  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 11 .bss          00000000  00000000  00000000  000002b0  2**0
+                  ALLOC
+ 12 .text._http_stream_event_handle 00000030  00000000  00000000  000002b0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .rodata.str1.4 00000511  00000000  00000000  000002e0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 14 .text.init_internet_radio 0000003e  00000000  00000000  000007f4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .text.get_current_channel_name 0000000e  00000000  00000000  00000834  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .rodata       00000044  00000000  00000000  00000844  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+ 17 .text.start_channel_url 00000536  00000000  00000000  00000888  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .text.internet_radio_task 00000015  00000000  00000000  00000dc0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .text.reset_channel_url 0000005c  00000000  00000000  00000dd8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .text.exec_channel 0000001f  00000000  00000000  00000e34  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .text.switch_radio_next 00000037  00000000  00000000  00000e54  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .text.switch_radio_previous 00000037  00000000  00000000  00000e8c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .rodata.__func__$11034 00000012  00000000  00000000  00000ec4  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 24 .bss.radio_lock 00000004  00000000  00000000  00000ed8  2**2
+                  ALLOC
+ 25 .debug_frame  000000e8  00000000  00000000  00000ed8  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 26 .debug_info   00001ad5  00000000  00000000  00000fc0  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 27 .debug_abbrev 00000292  00000000  00000000  00002a95  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 28 .debug_loc    000001ec  00000000  00000000  00002d27  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 29 .debug_aranges 00000060  00000000  00000000  00002f13  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 30 .debug_ranges 00000050  00000000  00000000  00002f73  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 31 .debug_line   0000085e  00000000  00000000  00002fc3  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 32 .debug_str    0000191c  00000000  00000000  00003821  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 33 .comment      0000003c  00000000  00000000  0000513d  2**0
+                  CONTENTS, READONLY
+ 34 .xtensa.info  00000038  00000000  00000000  00005179  2**0
+                  CONTENTS, READONLY
+ 35 .xt.lit       00000048  00000000  00000000  000051b1  2**0
+                  CONTENTS, RELOC, READONLY
+ 36 .xt.prop      000002dc  00000000  00000000  000051f9  2**0
+                  CONTENTS, RELOC, READONLY
