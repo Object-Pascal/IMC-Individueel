@@ -1,25 +1,15 @@
-# Play HTTP Living stream
+# Geschreven code: 
+- main.c 
+- Touchperiph code alleen in de main.c 
+- Het component lcd omgebouwd voor dit project 
+- Het gehele component internet_radio 
+- Het gehele component channel_provider 
 
-The example plays a m3u downloaded from HTTP. 
-
-## Compatibility
-
-| ESP32-LyraT | ESP32-LyraTD-MSC | ESP32-LyraT-Mini |
-|:-----------:|:----------------:|:----------------:|
-| [![alt text](../../../docs/_static/esp32-lyrat-v4.3-side-small.jpg "ESP32-LyraT")](https://docs.espressif.com/projects/esp-adf/en/latest/get-started/get-started-esp32-lyrat.html) | [![alt text](../../../docs/_static/esp32-lyratd-msc-v2.2-small.jpg "ESP32-LyraTD-MSC")](https://docs.espressif.com/projects/esp-adf/en/latest/get-started/get-started-esp32-lyratd-msc.html) | [![alt text](../../../docs/_static/esp32-lyrat-mini-v1.2-small.jpg "ESP32-LyraT-Mini")](https://docs.espressif.com/projects/esp-adf/en/latest/get-started/get-started-esp32-lyrat-mini.html) |
-| ![alt text](../../../docs/_static/yes-button.png "Compatible") | ![alt text](../../../docs/_static/yes-button.png "Compatible") | ![alt text](../../../docs/_static/yes-button.png "Compatible") |
-## Usage
-
-Prepare the audio board:
-
-- Connect speakers or headphones to the board.
-
-Configure the example:
-
-- Select compatible audio board in `menuconfig` > `Audio HAL`.
-- Set up the Wi-Fi connection by running `menuconfig` > `Example Configuration` and filling in `WiFi SSID` and `WiFi Password`.
-
-Load and run the example:
-
-- The audio board will first connect to the Wi-Fi.
-- Then the board will start playing automatically.
+# Beschrijving project:  
+De onderdelen die ik heb gemaakt voor het individueel deel zijn als volgt: 
+- Internet Radio met 5 stations 
+- Aanzetten met de knop Play 
+- Volgend station met de knop Vol+ 
+- Vorig station met de knop Vol- 
+- En mocht het LCD het doen kan de naam van het station weergeven worden met de Set knop 
+(Het LCD kon niet worden getest omdat de i2c driver niet correct installeert op mijn machine, mocht het bij een ander werken dan werkt dit zoals behoren)
