@@ -1,7 +1,7 @@
 # Geschreven code: 
 - main.c 
 - Touchperiph code alleen in de main.c 
-- Het component lcd omgebouwd voor dit project 
+- Het component lcd (lcd.c & lcd.h) omgebouwd voor dit project 
 - Het gehele component internet_radio 
 - Het gehele component channel_provider 
 
